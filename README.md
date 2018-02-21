@@ -1,5 +1,20 @@
 # Cell-Migration
-Analyse and measure migration in Scratch Wound Assays
+<h1>Analyse and measure migration in Scratch Wound Assays</h1>
+
+<p>
+This work was was accepted for publication in Electronics Letters:
+</p>
+<p>
+Measuring cellular migration with image processing
+CC Reyes-Aldasoro, D Biram, GM Tozer, C Kanthou
+
+<a href="http://digital-library.theiet.org/content/journals/10.1049/el_20080943">
+
+Electronics Letters</a> 44 (13), 791-793
+</p>
+
+
+
 
 <h2>Input data with image of the cell population</h2>
         
