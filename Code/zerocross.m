@@ -1,6 +1,12 @@
 function bor = zerocross(imag);
 
 % get zero crossings of a certain input can be 2D or 1D
+%-------------------------------------------------------------------------------------
+%------  Author :   Constantino Carlos Reyes-Aldasoro                       ----------
+%------             Postdoc  Sheffield University                           ----------
+%------             http://tumour-microcirculation.group.shef.ac.uk         ----------
+%------  27 November 2007   ---------------------------
+%----------------------------------------------------
 
 % if  min(imag(:))>= 0;
 %    msgbox('No negative values in data','Zerocross warning','warn');
