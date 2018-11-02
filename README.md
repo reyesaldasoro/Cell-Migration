@@ -14,7 +14,7 @@ Electronics Letters</a> 44 (13), 791-793
 </p>
 
 
-
+![Screenshot](Figures/GraphicalDescription.jpg)
 
 <h2>Input data with image of the cell population</h2>
         
@@ -26,7 +26,7 @@ imagesc(dataIn);
 colormap(gray)
 </pre>
 
-![Screenshot](cellMigrationDemo_01.png)
+![Screenshot](Figures/cellMigrationDemo_01.png)
 
 
 
@@ -49,6 +49,6 @@ disp(Res_stats.area(2))
 
 </pre><p>The output images will display the original image with the boundaries overlaid:</p><pre class="codeinput">imagesc(Res_colour);
 
-![Screenshot](cellMigrationDemo_02.png)
+![Screenshot](Figures/cellMigrationDemo_02.png)
 
 <br>
