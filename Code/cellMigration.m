@@ -1,5 +1,5 @@
 function [Res_stats,Res_colour,Res_gray,Res_Cells]=cellMigration(dataIn)
-%function [Res_stats,Res_colour,Res_gray,Res_Cells]=edgeCells(dataIn,toPlot);
+%function [Res_stats,Res_colour,Res_gray,Res_Cells]=cellMigration(dataIn,toPlot);
 %
 %-------- this function plots a 3D group of tracks that have been generated with trackRBC.m
 %-------------------------------------------------------------------------------------
@@ -15,7 +15,7 @@ function [Res_stats,Res_colour,Res_gray,Res_Cells]=cellMigration(dataIn)
 
 %------ no input data is received, error -------------------------
 %------ at least 2 parameters are required
-if nargin <1;     help edgeCells; Res_stats=[];Res_colour=[];Res_gray=[];Res_Cells=[]; return;  end;
+if nargin <1;     help cellMigration; Res_stats=[];Res_colour=[];Res_gray=[];Res_Cells=[]; return;  end
 %tic;
 %if ~exist('toPlot','var'); toPlot=0; end
 %------ arguments received revision   ----------------------------
