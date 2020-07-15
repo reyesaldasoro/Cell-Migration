@@ -33,7 +33,7 @@ colormap(gray)
 
 <p>Or it can be passed as a string</p><pre class="codeinput">dataIn=<span class="string">'Example.tif'</span>;
 </pre><h2>Process the data with cellMigration<a name="3"></a></h2>
-         <p>dataIn, either as a string or a matrix, is the only input parameter required for the algorithm of measurement of cell migration:</p><pre class="codeinput">[Res_stats,Res_colour,Res_gray]=cellMigrationAssay(dataIn);
+         <p>dataIn, either as a string or a matrix, is the only input parameter required for the algorithm of measurement of cell migration:</p><pre class="codeinput">[Res_stats,Res_colour,Res_gray]=cellMigration(dataIn);
 </pre><h2>Output of the algorithm<a name="4"></a></h2>
          <p>The output arguments are the following: Res_stats, which will contain the minimum, average and maximum distances:</p><pre class="codeinput">disp(Res_stats)
 </pre><pre class="codeoutput">    minimumDist: 268.0765
